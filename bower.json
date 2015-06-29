@@ -1,0 +1,12 @@
+{
+  "name": "nats-notes",
+  "description": "note taking app",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "angular-loader": "~1.4.0",
+    "angular-mocks": "~1.4.0",
+    "angular-ui-router": "~0.2.15"
+  }
+}
