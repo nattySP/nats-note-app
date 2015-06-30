@@ -5,11 +5,11 @@ angular
   config.$inject = ['$stateProvider', '$urlRouterProvider']; 
 
   function config($stateProvider, $urlRouterProvider) {
-    $urlRouterProvider.otherwise("/notepad");
+    $urlRouterProvider.otherwise('/notepad');
           
     $stateProvider
       .state('notepad', {
-          url: "/notepad",
-          templateUrl: "note.route.html"
+          url: '/notepad',
+          templateUrl: 'note.route.html'
       })
   }

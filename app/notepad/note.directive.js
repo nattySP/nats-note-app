@@ -1,16 +1,17 @@
 angular
   .module('notes.notepad')
-  .directive('notepad', notepad);
+  .directive('note', note);
 
-  function notepad() {
+  function note() {
     return {
       restrict: 'E', 
-      scope: {}, 
-      templateUrl: 'notepad/notepad.template.html',
-      link: function (scope, element, attrs) {
-
+      scope: {
+        title: '@'
       }, 
-      controller: 'NotepadCtrl', 
+      templateUrl: 'notepad/note.template.html',
+      link: function (scope, element, attrs) {
+      }, 
+      controller: 'NoteCtrl', 
       controllerAs: 'vm', 
       bindToController: true
     }

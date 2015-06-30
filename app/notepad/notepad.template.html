@@ -1,1 +1,7 @@
-<div id="notepad"> this is a notepad </div>
+<div id="notepad"> 
+  <h3> Notepad </h3>
+  <div> {{vm.title}} </div>
+  <div ng-repeat="note in vm.notes">
+    <note title="{{note.title}}"></note>
+  </div> 
+</div>
